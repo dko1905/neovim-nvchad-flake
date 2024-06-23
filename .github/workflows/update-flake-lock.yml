@@ -2,8 +2,8 @@ name: "Automatic flake update"
 on:
   workflow_dispatch: # allows manual triggering
   schedule:
-    - cron: '0 0 * * 0' # runs weekly on Sunday at 00:00
-
+    - cron: '0 0 1 * *' # runs monthly on the first of month
+    
 jobs:
   lockfile:
     runs-on: ubuntu-latest
