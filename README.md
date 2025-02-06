@@ -1,5 +1,7 @@
-# Neovim NvChad flake
+# Neovim NvChad flake (Archived)
 This is a fork of [redyf/nix-flake-nvchad](https://github.com/redyf/nix-flake-nvchad)
+
+**whether it works is hit-or-miss, use the nixpkgs [lunarvim](https://github.com/NixOS/nixpkgs/blob/nixos-24.11/pkgs/by-name/lu/lunarvim/package.nix#L138) package instead**
 
 To run:
 ```sh
